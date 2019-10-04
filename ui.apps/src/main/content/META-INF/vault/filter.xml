@@ -3,7 +3,5 @@
     <filter root="/apps/wknd">
         <exclude pattern="/apps/wknd/application/install(/.*)?"/>
         <exclude pattern="/apps/wknd/content/install(/.*)?"/>
-
-        <include pattern="/apps/wknd(/.*)?"/>
     </filter>
 </workspaceFilter>

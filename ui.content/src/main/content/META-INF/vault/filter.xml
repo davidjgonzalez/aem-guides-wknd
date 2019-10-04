@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/conf/wknd"/>
-    <filter root="/content/wknd"/>
-    <filter root="/content/dam/wknd"/>
-    <filter root="/content/experience-fragments/wknd"/>
+    <filter root="/conf">
+        <include pattern="/conf/wknd(/.*)?"/>
+    </filter>
+    <filter root="/content">
+        <include pattern="/content/wknd(/.*)?"/>
+        <include pattern="/content/dam/wknd(/.*)?"/>
+        <include pattern="/content/experience-fragments/wknd(/.*)?"/>
+    </filter>
 </workspaceFilter>
