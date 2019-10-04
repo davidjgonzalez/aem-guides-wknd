@@ -29,6 +29,11 @@
         <module>ui.frontend</module>
         <module>ui.apps</module>
         <module>ui.content</module>
+        <!--
+        <module>ui.content.author</module>
+        <module>ui.content.publish</module>
+        -->
+        <module>all</module>
         <module>it.tests</module>
         <module>it.launcher</module>
     </modules>
@@ -579,12 +584,28 @@
                 <classifier>apis</classifier>
                 <scope>provided</scope>
             </dependency>
+            <!--
             <dependency>
                 <groupId>com.adobe.cq</groupId>
                 <artifactId>core.wcm.components.all</artifactId>
                 <type>zip</type>
                 <version>${core.wcm.components.version}</version>
             </dependency>
+            -->
+            <dependency>
+                <groupId>com.adobe.cq</groupId>
+                <artifactId>core.wcm.components.content</artifactId>
+                <type>zip</type>
+                <version>${core.wcm.components.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.adobe.cq</groupId>
+                <artifactId>core.wcm.components.config</artifactId>
+                <type>zip</type>
+                <version>${core.wcm.components.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>com.adobe.cq</groupId>
                 <artifactId>core.wcm.components.core</artifactId>

@@ -57,6 +57,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <group>wknd</group>
+                    <packageType>application</packageType>
                     <embeddeds>
                         <embedded>
                             <groupId>com.adobe.aem.guides</groupId>
@@ -64,18 +65,6 @@
                             <target>/apps/wknd/install</target>
                         </embedded>
                     </embeddeds>
-                    <subPackages>
-                        <subPackage>
-                            <groupId>com.adobe.cq</groupId>
-                            <artifactId>core.wcm.components.all</artifactId>
-                            <filter>true</filter>
-                        </subPackage>
-                        <subPackage>
-                            <groupId>com.adobe.cq</groupId>
-                            <artifactId>core.wcm.components.examples</artifactId>
-                            <filter>true</filter>
-                        </subPackage>
-                    </subPackages>
                 </configuration>
             </plugin>
             <plugin>
@@ -111,16 +100,6 @@
             <classifier>apis</classifier>
         </dependency>
 
-        <dependency>
-            <groupId>com.adobe.cq</groupId>
-            <artifactId>core.wcm.components.all</artifactId>
-            <type>zip</type>
-        </dependency>
-        <dependency>
-            <groupId>com.adobe.cq</groupId>
-            <artifactId>core.wcm.components.examples</artifactId>
-            <type>zip</type>
-        </dependency>
         <dependency>
             <groupId>javax.jcr</groupId>
             <artifactId>jcr</artifactId>
