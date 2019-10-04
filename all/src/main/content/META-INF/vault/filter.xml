@@ -3,5 +3,7 @@
     <filter root="/apps">
         <include pattern="/apps/wknd/application/install(/.*)?"/>
         <include pattern="/apps/wknd/content/install(/.*)?"/>
+        <include pattern="/apps/deploy(/.*)?"/>
+
     </filter>
 </workspaceFilter>
