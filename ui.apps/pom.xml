@@ -96,14 +96,14 @@
     <!-- ====================================================================== -->
     <dependencies>
         <dependency>
-            <groupId>com.adobe.aem.guides</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>aem-guides-wknd.repository-structure</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
 
         <dependency>
-            <groupId>com.adobe.aem.guides</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>aem-guides-wknd.core</artifactId>
             <version>${project.version}</version>
         </dependency>
