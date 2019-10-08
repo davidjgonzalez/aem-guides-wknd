@@ -58,6 +58,9 @@
                 <configuration>
                     <group>wknd</group>
                     <packageType>application</packageType>
+                    <properties>
+                        <cloudManagerTarget>none</cloudManagerTarget>
+                    </properties>
                     <embeddeds>
                         <embedded>
                             <groupId>com.adobe.aem.guides</groupId>

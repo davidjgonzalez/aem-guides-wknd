@@ -69,14 +69,14 @@
                         <embedded>
                             <groupId>${project.groupId}</groupId>
                             <artifactId>aem-guides-wknd.ui.content.author</artifactId>
-                            <filter>true</filter>
+                            <type>zip</type>
                             <target>/apps/wknd/content/install.author</target>
                         </embedded>
 
                         <embedded>
                             <groupId>${project.groupId}</groupId>
                             <artifactId>aem-guides-wknd.ui.content.publish</artifactId>
-                            <filter>true</filter>
+                            <type>zip</type>
                             <target>/apps/wknd/content/install.publish</target>
                         </embedded>
 -->

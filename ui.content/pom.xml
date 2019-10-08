@@ -58,6 +58,9 @@
                     <group>wknd</group>
                     <acHandling>merge_preserve</acHandling>
                     <packageType>content</packageType>
+                    <properties>
+                        <cloudManagerTarget>none</cloudManagerTarget>
+                    </properties>
                 </configuration>
             </plugin>
             <plugin>
