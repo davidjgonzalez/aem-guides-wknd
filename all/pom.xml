@@ -55,17 +55,15 @@
                         <embedded>
                             <groupId>${project.groupId}</groupId>
                             <artifactId>aem-guides-wknd.ui.apps</artifactId>
-                            <filter>true</filter>
                             <type>zip</type>
-                            <target>/apps/wknd/application/install</target>
+                            <target>/apps/wknd-packages/application/install</target>
                         </embedded>
 
                         <embedded>
                             <groupId>${project.groupId}</groupId>
                             <artifactId>aem-guides-wknd.ui.content</artifactId>
-                            <filter>true</filter>
                             <type>zip</type>
-                            <target>/apps/wknd/content/install</target>
+                            <target>/apps/wknd-packages/content/install</target>
                         </embedded>
 <!--
                         <embedded>
@@ -85,17 +83,15 @@
                         <embedded>
                             <groupId>com.adobe.cq</groupId>
                             <artifactId>core.wcm.components.content</artifactId>
-                            <filter>true</filter>
                             <type>zip</type>
-                            <target>/apps/wknd/application/install</target>
+                            <target>/apps/wknd-packages/application/install</target>
                         </embedded>
 
                         <embedded>
                             <groupId>com.adobe.cq</groupId>
                             <artifactId>core.wcm.components.config</artifactId>
-                            <filter>true</filter>
                             <type>zip</type>
-                            <target>/apps/wknd/content/install</target>
+                            <target>/apps/wknd-packages/content/install</target>
                         </embedded>
 
                     </embeddeds>
