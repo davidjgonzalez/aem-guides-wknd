@@ -57,7 +57,7 @@
                 <configuration>
                     <group>wknd</group>
                     <acHandling>merge_preserve</acHandling>
-                    <packageType>application</packageType>
+                    <packageType>content</packageType>
                 </configuration>
             </plugin>
             <plugin>

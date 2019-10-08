@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/apps/wknd">
-        <exclude pattern="/apps/wknd/application(/.*)"/>
-        <exclude pattern="/apps/wknd/content(/.*)"/>
-    </filter>
+    <filter root="/apps/wknd/components/content"/>
 </workspaceFilter>

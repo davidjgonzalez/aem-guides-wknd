@@ -35,13 +35,6 @@
     <name>WKND Sites Project - All</name>
     <description>All packages for WKND Sites Project</description>
 
-    <!-- <scm>
-        <connection></connection>
-        <developerConnection></developerConnection>
-        <url></url>
-        <tag>HEAD</tag>
-    </scm-->
-
     <!-- ====================================================================== -->
     <!-- B U I L D   D E F I N I T I O N                                        -->
     <!-- ====================================================================== -->
@@ -88,8 +81,7 @@
                             <filter>true</filter>
                             <target>/apps/wknd/content/install.publish</target>
                         </embedded>
-
-
+-->
                         <embedded>
                             <groupId>com.adobe.cq</groupId>
                             <artifactId>core.wcm.components.content</artifactId>
@@ -105,7 +97,7 @@
                             <type>zip</type>
                             <target>/apps/wknd/content/install</target>
                         </embedded>
-                        -->
+
                     </embeddeds>
                     </configuration>
                 </plugin>
@@ -121,7 +113,7 @@
             </plugins>
         </build>
 
-        <!-- ====================================================================== -->
+    <!-- ====================================================================== -->
     <!-- D E P E N D E N C I E S                                                -->
     <!-- ====================================================================== -->
     <dependencies>

@@ -25,6 +25,7 @@
     <description>WKND Sites Project</description>
 
     <modules>
+        <module>repository-structure</module>
         <module>core</module>
         <module>ui.frontend</module>
         <module>ui.apps</module>
@@ -242,11 +243,6 @@
                         <userId>${vault.user}</userId>
                         <password>${vault.password}</password>
                     </configuration>
-                </plugin>
-                <plugin>
-                    <groupId>biz.aQute.bnd</groupId>
-                    <artifactId>bnd-maven-plugin</artifactId>
-                    <version>${bnd.version}</version>
                 </plugin>
                 <!-- Maven Enforcer Plugin -->
                 <plugin>

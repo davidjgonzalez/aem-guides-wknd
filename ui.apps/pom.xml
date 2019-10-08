@@ -65,6 +65,13 @@
                             <target>/apps/wknd/install</target>
                         </embedded>
                     </embeddeds>
+                    <repositoryStructurePackages>
+                        <repositoryStructurePackage>
+                            <groupId>${project.groupId}</groupId>
+                            <artifactId>aem-guides-wknd.repository-structure</artifactId>
+                            <version>${project.version}</version>
+                        </repositoryStructurePackage>
+                    </repositoryStructurePackages>
                 </configuration>
             </plugin>
             <plugin>
@@ -90,8 +97,15 @@
     <dependencies>
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
+            <artifactId>aem-guides-wknd.repository-structure</artifactId>
+            <version>${project.version}</version>
+            <type>zip</type>
+        </dependency>
+
+        <dependency>
+            <groupId>com.adobe.aem.guides</groupId>
             <artifactId>aem-guides-wknd.core</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
 
         <dependency>
